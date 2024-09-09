@@ -57,14 +57,14 @@ body {
     max-height: 99%;
     max-width: 30%; /* Adjust this for the desired size */
     object-fit: contain;
-    /* margin-right: 0vw; Adds some spacing between logo and text */
+    margin-right: -1vw; 
 }
 
 .left-image-bg .odin-lettered {
     font-family: Odinfont, sans-serif;
     font-size: 4.4rem;
     color: white;
-    /* margin-left: 0vw; */
+    margin-left: -1vw;
 }
 
 .photo-link {
@@ -89,5 +89,72 @@ body {
     background-color: white;
     height: 100vh;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
+.firstp {
+    width: 90%;
+   
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* margin: 0; */
+    padding-bottom: 1%;
+}
+form {
+    width: 55%;
+    position: relative;
+    
+}
+
+
+.first-line, .second-line, .third-line {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    width: 14.5%;
+    height: 4.9%;
+    border-radius: 5px;
+    background-color: rgb(85, 141, 90);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 75.7%;
+}
+
+label {
+    font-family: sans-serif;
+}
+
+input:invalid {
+    background-color: red;
+}
+
+.log-in {
+    font-family: sans-serif;
+}
+
+.log {
+    color: rgb(85, 141, 90);
+}
